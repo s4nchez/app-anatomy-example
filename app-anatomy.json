@@ -1,0 +1,25 @@
+{
+  "language": "java",
+  "environments": {
+    "staging": {
+      "environment_properties": {
+        "FOO": "BAR"
+      },
+      "secrets": {
+        "XYZ": "/path/to/secret"
+      }
+    },
+    "live": {
+      "environment_properties": {
+        "FOO": "BAR"
+      },
+      "secrets": {
+        "XYZ": "/path/to/secret"
+      }
+    }
+  },
+  "runtime_dependencies": [
+    "some-service",
+    "another-service"
+  ]
+}
