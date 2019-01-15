@@ -1,0 +1,13 @@
+@startuml
+
+(*) -right-> "Configure Pipeline"
+-right-> "Build"
+-right-> "Integration tests (staging)"
+-right-> "Deploy (staging)"
+-right-> "Consumer tests (staging)"
+-right-> (*)
+-right-> "Integration tests (live)"
+-right-> "Deploy (live)"
+-right-> "Consumer tests (live)"
+
+@enduml
