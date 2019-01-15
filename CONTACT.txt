@@ -1,0 +1,5 @@
+{
+  "team": "My team",
+  "email": "myteam@myorg.com",
+  "slack": "#ask-myteam"
+}
